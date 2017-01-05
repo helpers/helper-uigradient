@@ -1,0 +1,70 @@
+{
+  "name": "helper-uigradient",
+  "description": "Template helper that generates the CSS for any of the gradients from Ghosh/uiGradients",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/helper-uigradient",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "helpers/helper-uigradient",
+  "bugs": {
+    "url": "https://github.com/helpers/helper-uigradient/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "camel-case": "^3.0.0",
+    "extend-shallow": "^2.0.1",
+    "uiGradients": "https://github.com/Ghosh/uiGradients.git"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.11",
+    "handlebars": "^4.0.6",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "css",
+    "generate",
+    "gradient",
+    "helper",
+    "helpers",
+    "render",
+    "template",
+    "templates",
+    "ui",
+    "uigradient"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "helper-octicon",
+        "helper-html-table",
+        "helper-date",
+        "template-helpers",
+        "handlebars-helpers"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
