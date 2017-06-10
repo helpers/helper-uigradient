@@ -2,7 +2,7 @@
 
 var camelcase = require('camel-case');
 var extend = require('extend-shallow');
-var gradients = require('uiGradients/gradients.json');
+var gradients = require('./gradients.json');
 
 module.exports = function(name, options) {
   if (name === 'default') {
